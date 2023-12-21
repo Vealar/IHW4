@@ -47,9 +47,9 @@ bool commandReceived = false Это флаг, используемый для с
 Последний элемент это main  
 <img width="904" alt="Снимок экрана 2023-12-22 в 00 08 12" src="https://github.com/Vealar/IHW4/assets/121261496/a83fb346-900f-4a56-9e3a-7aec9655158b">
 Здесь мы создаем поток под каждого покупателя и каждый отдел, они отрабатывают и мы их закрываем. Пользователь передает количество покупателей через консоль, число int. В программе использованы примитивы синхронизации такие, как mutex и semaphore. Данные которые генерируются в задаче это количество отделов int число от 1 до 3. Теперь предоставлю тесты при n = 0,1,5,10:
-<img width="332" alt="Снимок экрана 2023-12-22 в 01 34 14" src="https://github.com/Vealar/IHW4/assets/121261496/141efd21-537e-4674-ab83-62e93552943c">
-<img width="332" alt="Снимок экрана 2023-12-22 в 01 34 20" src="https://github.com/Vealar/IHW4/assets/121261496/a2156822-0cbd-413a-a800-49e723f25075">
-<img width="345" alt="Снимок экрана 2023-12-22 в 02 03 15" src="https://github.com/Vealar/IHW4/assets/121261496/b80672b5-e681-4eca-8e48-298d551560b0">
-<img width="274" alt="Снимок экрана 2023-12-22 в 00 20 01" src="https://github.com/Vealar/IHW4/assets/121261496/c106d477-8d29-4c5d-9586-cd813b5401d5">
-<img width="332" alt="Снимок экрана 2023-12-22 в 01 24 17" src="https://github.com/Vealar/IHW4/assets/121261496/2eb9998c-6a63-446e-9917-c0facccfe3ea">
+<img width="332" alt="Снимок экрана 2023-12-22 в 01 34 14" src="https://github.com/Vealar/IHW4/assets/121261496/141efd21-537e-4674-ab83-62e93552943c">  
+<img width="332" alt="Снимок экрана 2023-12-22 в 01 34 20" src="https://github.com/Vealar/IHW4/assets/121261496/a2156822-0cbd-413a-a800-49e723f25075">  
+<img width="345" alt="Снимок экрана 2023-12-22 в 02 03 15" src="https://github.com/Vealar/IHW4/assets/121261496/b80672b5-e681-4eca-8e48-298d551560b0">  
+<img width="274" alt="Снимок экрана 2023-12-22 в 00 20 01" src="https://github.com/Vealar/IHW4/assets/121261496/c106d477-8d29-4c5d-9586-cd813b5401d5">  
+<img width="332" alt="Снимок экрана 2023-12-22 в 01 24 17" src="https://github.com/Vealar/IHW4/assets/121261496/2eb9998c-6a63-446e-9917-c0facccfe3ea">  
 
